@@ -4,6 +4,8 @@ main styles
 
 *********************************/
 
+@import "import-styles.css";
+
 body {
 
   text-align: center;
@@ -20,8 +22,6 @@ h1 {
 p {
 
   font-size: 20px;
-
-
 
 }
 
