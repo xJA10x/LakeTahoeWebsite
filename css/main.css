@@ -4,35 +4,6 @@ main styles
 
 *********************************/
 
-@import "import-styles.css";
+  /* Universal selector */
 
-body {
-
-  text-align: center;
-
-}
-
-h1 {
-
-  font-size: 72px;
-  color: white;
-
-}
-
-p {
-
-  font-size: 20px;
-
-}
-
-/*************************************
-
-Header styles
-
-**************************************/
-
-header {
-
-  background-color: orange;
-
-}
+  
