@@ -4,6 +4,47 @@ main styles
 
 *********************************/
 
-  /* Universal selector */
+body {
 
-  
+  color: #878787;
+  margin: 0;
+
+}
+
+/************************************
+
+Header styles
+
+*************************************/
+
+header {
+
+  background-color: orange;
+
+}
+
+h1 {
+
+  font-size: 90px;
+  color: white;
+
+}
+
+/***************************************
+
+Content styles
+
+************************************/
+
+h2 {
+
+  font-size: 53px;
+
+}
+
+h3 {
+
+  font-size: 20px;
+  color: #48525c;
+
+}
