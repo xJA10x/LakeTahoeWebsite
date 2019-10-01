@@ -17,7 +17,7 @@ Header styles
 
 *************************************/
 
-header {
+.main-header {
 
   background-color: orange;
 
@@ -32,7 +32,7 @@ h1 {
 
 /***************************************
 
-Content styles
+primary content styles
 
 ****************************************/
 
@@ -49,9 +49,27 @@ h3 {
 
 }
 
-#primary-content {
+.primary-content {
 
-  border: 3px solid red;
+  /*****************
+
+  center text
+  ******************/
+
+  text-align: center;
+
+}
+
+/****************************************
+
+Secondary content styles
+
+*****************************************/
+
+.secondary-content {
+
+  border-top: 2px solid lightgrey;
+
 
 }
 
