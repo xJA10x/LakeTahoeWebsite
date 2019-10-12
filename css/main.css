@@ -23,6 +23,13 @@ Header styles
 
 }
 
+.title {
+
+  color: white;
+  font-size: 26px;
+
+}
+
 h1 {
 
   font-size: 90px;
@@ -66,6 +73,15 @@ Secondary content styles
 
 *****************************************/
 
+ol li {
+
+  background-color: tomato;
+  color: white;
+  margin-bottom: 5px;
+
+
+}
+
 
 
 /*****************************************
@@ -78,7 +94,6 @@ for repeating styles among elements
 .t-border {
 
   border-top: 2px solid lightgrey;
-
 
 }
 
@@ -93,7 +108,6 @@ Footer styles
   padding-top: 60px;
   padding-bottom: 60px;
   border-bottom: solid 10px orange;
-
 
 
 }
