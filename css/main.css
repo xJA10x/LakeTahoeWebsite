@@ -21,6 +21,7 @@ Header styles
 .main-header {
 
   background-color: #ffa949;
+  text-align: center;
 
 }
 
@@ -34,7 +35,9 @@ Header styles
 h1 {
 
   font-size: 5.625rem; /*  90px / 16px  */
-  color: rgba(255, 255, 255, .5);
+  color: rgba(255, 255, 255, 1);
+  text-transform: uppercase;
+  font-weight: normal;
 
 }
 
@@ -46,13 +49,15 @@ primary content styles
 
 h2 {
 
-  font-size: 53px;
+  font-size: 3.3125em; /* 53px/16px */
+  text-decoration: underline;
+  font-weight: normal;
 
 }
 
 h3 {
 
-  font-size: 20px;
+  font-size: 1.25em; /* 20px/16px */
   color: #48525c;
 
 }
@@ -76,8 +81,6 @@ Secondary content styles
 
 ol li {
 
-  background-color: tomato;
-  color: white;
   margin-bottom: 5px;
 
 }
@@ -118,6 +121,7 @@ changes behavior of links and so on
 a:link {
 
   color: rgb(255, 169, 73);
+  text-decoration: none;
 
 }
 
