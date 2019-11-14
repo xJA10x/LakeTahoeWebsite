@@ -76,6 +76,19 @@ h3 {
 
 }
 
+.wildlife {
+
+  color: white;
+  background-color: #434a52;
+
+  padding-top: 100px;
+  padding-right: 120px;
+  padding-bottom: 100px;
+  padding-left: 120px;
+
+
+}
+
 /****************************************
 
 Secondary content styles
@@ -153,7 +166,6 @@ a:active {
 
 
 }
-
 
 /*******************************************
 
