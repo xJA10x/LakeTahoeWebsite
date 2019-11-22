@@ -68,14 +68,18 @@ h3 {
 
 }
 
-.primary-content {
-
-  /*****************
-
-  center text
-  ******************/
+.primary-content,
+.main-header,
+.main-footer {
 
   text-align: center;
+
+}
+
+.primary-content {
+
+  padding-top: 25px;
+  padding-bottom: 95px;
 
 }
 
@@ -92,15 +96,27 @@ h3 {
 
 }
 
+.callout {
+
+  font-size: 1.25em;
+  border-bottom: 3px solid;
+  padding: 0 9px 3px;
+  margin-top: 20px;
+  display: inline-block;
+
+}
+
 /****************************************
 
 Secondary content styles
 
 *****************************************/
 
-ol li {
+.secondary-content {
 
-  margin-bottom: 5px;
+  padding-top: 80px;
+  padding-bottom: 70px;
+  border-bottom: 2px solid #dfe2e6;
 
 }
 
@@ -133,7 +149,7 @@ for repeating styles among elements
 
 .t-border {
 
-  border-top: 2px solid lightgrey;
+  border-top: 2px solid #dfe2e6;
 
 }
 
