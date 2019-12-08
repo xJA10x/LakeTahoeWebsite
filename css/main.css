@@ -1,5 +1,18 @@
 /*********************************
 
+Universal rules
+
+*********************************/
+
+* {
+
+  box-sizing: border-box;
+
+}
+
+
+/*********************************
+
 main styles
 
 *********************************/
@@ -127,6 +140,13 @@ Secondary content styles
 
 }
 
+img {
+
+  max-width: 100%;
+  margin-bottom: 20px;
+
+}
+
 /********************************************
 
 Primary content and seconday content styles
@@ -136,13 +156,17 @@ Primary content and seconday content styles
 .primary-content,
 .secondary-content {
 
-  width: 960px;
+  width: 75%;
   padding-left: 50px;
   padding-right: 50px;
   /*
     Centers content
   */
   margin: auto;
+  /*
+    Width for adjusting to certain devices
+  */
+  max-width: 900px;
 
 }
 
