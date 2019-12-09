@@ -38,6 +38,10 @@ Header styles
   background-color: #ffa949;
   padding-top: 170px;
   height: 850px;
+  background-image: url('../img/mountains.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 
 }
 
