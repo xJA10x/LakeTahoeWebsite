@@ -110,6 +110,7 @@ h3 {
 .wildlife {
 
   color: white;
+  text-align: left;
   background-color: #434a52;
   padding: 18% 24%;
   border-top: 10px solid #ffa949;
@@ -117,6 +118,8 @@ h3 {
   margin-right: 0;
   margin-bottom: 60px;
   margin-left: 0;
+  background: #434a52 url('../img/bear.jpg') no-repeat center;
+  background-size: cover;
 
 }
 
@@ -150,6 +153,41 @@ img {
   margin-bottom: 20px;
 
 }
+
+
+/***************************************
+
+Floated columns
+
+******************************************/
+
+.resorts,
+.tips{
+
+  width: 46.5%;
+
+}
+
+.tips {
+
+  float: right;
+
+}
+
+.resorts {
+
+  float: left;
+
+}
+
+
+
+/*****************************************
+
+Float Clearfix
+
+******************************************/
+
 
 /********************************************
 
