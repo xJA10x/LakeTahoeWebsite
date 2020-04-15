@@ -43,7 +43,7 @@ Header styles
   background-repeat: no-repeat;
   background-position: center;
 
-  background-image: radial-gradient(circle at top right, #ffa949, firebrick);
+  background-image: radial-gradient(circle at top right, #ffa949, firebrick, dodgerblue);
 
 
 }
