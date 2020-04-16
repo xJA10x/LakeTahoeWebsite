@@ -10,7 +10,6 @@ Universal rules
 
 }
 
-
 /*********************************
 
 main styles
@@ -38,12 +37,16 @@ Header styles
   background-color: #ffa949;
   padding-top: 170px;
   height: 850px;
-  background-image: url('../img/mountains.jpg');
+  background: linear-gradient(#ffa949, transparent 90%),
+              linear-gradient(0deg, #fff, transparent),
+              #ffa949 url('../img/mountains.jpg') no-repeat center;
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 
-  background-image: radial-gradient(circle at top right, #ffa949, firebrick, dodgerblue);
+  /*background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;*/
+
+
 
 
 }
