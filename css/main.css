@@ -346,3 +346,47 @@ Footer styles
   border-bottom: solid 10px #ffa949;
 
 }
+
+/*********************************************
+
+Media queries
+
+************************************************/
+
+@media (max-width: 960px) {
+
+  body {
+
+    background: blue;
+
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  body {
+
+    background: red;
+
+
+  }
+
+}
+
+@media (min-width: 481px)  and (max-width: 700px) {
+
+  body {
+
+    background: seagreen;
+
+  }
+
+  p {
+
+    color: white;
+
+  }
+
+
+}
