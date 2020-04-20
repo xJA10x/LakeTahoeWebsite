@@ -68,9 +68,6 @@ Header styles
   background-repeat: no-repeat;
   background-position: center;*/
 
-
-
-
 }
 
 .title {
@@ -353,40 +350,83 @@ Media queries
 
 ************************************************/
 
-@media (max-width: 960px) {
+@media (max-width: 1024px) {
 
-  body {
+  .primary-content,
+  .secondary-content {
 
-    background: blue;
+    width: 90%;
+
+  }
+
+  .wildlife {
+
+    padding: 10% 12%;
+    margin: 50px 0 20px;
 
   }
 
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
 
-  body {
+  .primary-content,
+  .secondary-content {
 
-    background: red;
-
-
-  }
-
-}
-
-@media (min-width: 481px)  and (max-width: 700px) {
-
-  body {
-
-    background: seagreen;
+    width: 100%;
+    padding: 20px;
+    border-top: none;
 
   }
 
-  p {
+  .main-header {
 
-    color: white;
+    max-height: 380px;
+    padding: 50px 25px 0;
 
   }
+
+  .title {
+
+    font-size: 1.3rem;
+    border: none;
+
+  }
+
+  h1 {
+
+    font-size: 5rem;
+    line-height: 1.1;
+
+  }
+
+  .arrow {
+
+    display: none;
+
+  }
+
+  .intro {
+
+    font-size: 1rem;
+
+  }
+
+  .resorts,
+  .tips {
+
+    float: none;
+    width: 100%;
+
+  }
+
+  .main-footer {
+
+    padding: 20px 0;
+
+  }
+
+
 
 
 }
